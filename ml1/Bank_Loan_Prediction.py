@@ -6,7 +6,7 @@ from PIL import Image
 import pickle
 
 
-model = pickle.load(open('C:/Users/Mahendranath/ml1/Model/ML_1.pkl', 'rb'))
+model = pickle.load(open('../ml1/Model/ML_1.pkl', 'rb'))
 
 def run():
     img1 = Image.open('bank.jpeg')
@@ -24,6 +24,7 @@ def run():
     #email_sender=st.text_input("Enter user Email")
 
     ## Password of senderis 
+
     #password=st.text_input("Enter password",type="password")
 
     ## Email of receiver
