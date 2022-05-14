@@ -23,7 +23,7 @@ def run():
     ## Email of sender
     #email_sender=st.text_input("Enter user Email")
 
-    ## Password of sender
+    ## Password of senderis 
     #password=st.text_input("Enter password",type="password")
 
     ## Email of receiver
